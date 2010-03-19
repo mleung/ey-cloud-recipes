@@ -1,3 +1,5 @@
+require 'pp'
+
 case node[:instance_role] 
   when "solo", "app", "app_master"
     bash "install-xapian " do
