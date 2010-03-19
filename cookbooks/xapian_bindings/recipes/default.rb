@@ -12,5 +12,4 @@ case node[:instance_role]
       command 'emerge --sync'
       command 'emerge dev-libs/xapian-bindings'
     end
-  end
 end
